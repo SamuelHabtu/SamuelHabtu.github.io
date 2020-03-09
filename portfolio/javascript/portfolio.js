@@ -2,8 +2,9 @@ var app = new Vue({
 	el: "#projects",
 	data: {
 		projects: [
-			{name: "Kirchoff Circuit Solver"},
-			{name: "Project 2"}
+			{content: {message}},
+			{content: "Project 2"}
 		]
 	}
 })
+<script type = "text/javascript" src ="...is-it-prime/javascript/app.js"></script>
