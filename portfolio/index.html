@@ -2,10 +2,14 @@
 <html>
 <head>
 	<title>Samuel Habtu</title>
-	<div id = "app">
-		{{ message }}
+	<div id = "projects">
+		<ol>
+			<li v-for = "project in projects">
+				{{ project.name }}
+			</li>
+		</ol>
 	</div>
 </head>
 </html>
 <script src="https://cdn.jsdelivr.net/npm/vue"></script>
-<script type = "text/javascript" src ="javascript/app.js"></script>
+<script type = "text/javascript" src ="javascript/portfolio.js"></script>
