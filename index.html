@@ -1,9 +1,59 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <script>
-        window.location.replace('portfolio/');
-    </script>
+  <title>Samuel Habtu</title>
+  <meta name="generator" content="MediaWiki 1.19.24" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="index.css">
 </head>
+<body>
+  <!-- side menu ;) -->
+  <div id ="sideNav" class = "overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class = "overlay-content" onclick="closeNav()">
+      <a href = "#home">Home</a>
+      <a href = "#chess">Chess</a> 
+      <a href = "#about">About</a>
+      <a href = "#contact">Contact</a>
+    </div>    
+  </div>
+  <div id = "main">    
+    <!--navigation bar at top of page-->
+    <div class="topnav" id="myTopnav">    
+      <a href="javascript:void(0);" onclick="openNav()">&#9776; MENU</a>
+      <img src = "https://media.discordapp.net/attachments/468503249494867969/518574395669741588/1jojVVCOMkX9Wyrexe4hGfK36vFUtU4Efk3t9NjJE41M1xC0pgfJp8voyLhoWpA9SwlFaf8c4iydUIMXiRk.png">      
+    </div>   
+    <!-- grid and stuff that goes in it --> 
+    <div class = "grid"> 
+      <div>
+        <div id="chess">
+          <h1>Chess</h1>
+          <p>
+            Growing up one of my faveourite things to do was watching computers play against themselves, specifically in fighting games. 
+            Since making a fighting game ai would take an enormous amount of time let alone making the fighting game itself I decided to instead pursue this but on a 'smaller' scale not that chess is a simple game but rather it would take less time  to make than making a fighting game visually speaking(since I get to stay in the realm of command line interfaces instead of having to do alot of art etc., that is required for a fighting game).
+          </p>
+          <p>
+            Naturally the next step was to look at some chess algorithms and thats when I ran into this video:
+          </p>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/DpXy041BIlA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+          </iframe>
+          <p>
+            the more I worked on this project the more I began to really enjoy chess, Playing with friends, tough chess ai and even rated games on chess.com; Here is one of my first wins online:
+          </p>
+         <iframe allowtransparency="true" border="0" frameborder="0" height="465" width="603" src="//www.chess.com/emboard?id=6393450">
+         </iframe>
+        </div>
+        <div id = "contact" class = "contact">
+          <h>Contact me: </h>
+          <a href = "mailto:habtus@mymacewan.ca?Subject="><img src = "https://images.vexels.com/media/users/3/130187/isolated/preview/5e8d2205ecc8cde3235581fc5ecfa430-email-outline-icon-by-vexels.png" width = "24px" height = "24px"></a>
+          <a href = "https://twitter.com/DunderSam"><img src = "https://www.freepnglogos.com/uploads/twitter-logo-png/twitter-logo-vector-png-clipart-1.png" width = "24px" height = "24x"></a>
+          <a href = "https://github.com/SGmagicsam"><img src = "http://www.stickpng.com/assets/images/5847f98fcef1014c0b5e48c0.png" width = "24px" height = "24px"></a>
+      </div>
+      </div>      
+    </div>
+  </div>
+<!-- side menu script -->
+<script src="sideMenu.js"></script>
+</body>
 </html>

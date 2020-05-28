@@ -1,0 +1,133 @@
+body
+{  
+  background-color: #763626;
+  margin: 0;
+}
+/* so it looks smooth ;)*/
+#main
+{
+  transition: margin-left .5s;
+}
+/* this sets up the grid and divides each row into 2 sections(2:1 ratio)*/
+.grid
+{ 
+  display:grid;
+  grid-template-columns: repeat( auto-fit, minmax(250px, 100%) );
+  grid-column-gap:1em;
+  grid-row-gap:1em;  
+}
+/*Within every grid it changes the background colour of each row */
+.grid > div
+{
+  background:#F5FEFE;
+  padding:1em;
+}
+.grid > div:nth-child(odd)
+{
+  background:#F5FEFE;
+  padding:1em;
+}
+/* Add a black background color to the top navigation */
+.topnav 
+{
+  position:sticky;
+  top:0em;
+  left:0em;
+  background-color: #2A3132;
+  overflow: hidden;
+  padding-bottom: 5px;
+  transition: top 0.3s; /* Transition effect when sliding down (and up) */
+
+
+}
+/*style the logo in topnav ;)*/
+.topnav img
+{
+  transition: 0.5s;
+  width:5em;
+  height:3em;
+}
+/* Style the links inside the navigation bar */
+.topnav a 
+{
+  float:left;
+  display: block;
+  color: #90AFC5;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: calc(60% + 1vw);
+}
+
+/* Add a dark background on topnav links*/
+.topnav a:hover
+{
+  background-color: #555;
+  color: #F2F2F2;
+}
+.overlay
+{
+  height:100%;
+  width:0;
+  position:fixed;
+  z-index:1;
+  top:0;
+  left:0;
+  background-color: #336B87;
+  overflow-x:hidden;  
+  transition: 0.5s;
+  opacity: 0.95;
+}
+.overlay-content
+{
+  float:top;
+  top:10%;
+  width:100%;
+  text-align: center;
+  margin-top: 30px;
+}
+.overlay a
+{
+  padding: 4px;
+  text-decoration: none;
+  font-size:17px;
+  color:#F2F2F2;
+  display:block;
+  transition:0.3s;
+}
+.overlay a:hover
+{
+  color: #CFE548;
+}
+.overlay a:focus
+{
+  color: #f1f1f1;
+  
+}
+.overlay .closebtn
+{
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+/* this is where I style the Div's within grid*/
+
+/* The contact me section:*/
+.contact
+{
+  font-size:12px; 
+}
+.contact h
+{
+  position:relative;
+  top:-5px;
+  left:0;
+  font-size:24px;
+  color:#2A3132;
+}
+.contact a
+{
+  position:relative;
+}
