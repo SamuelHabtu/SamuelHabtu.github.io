@@ -6,6 +6,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
   <!-- side menu ;) -->
@@ -22,33 +23,48 @@
     <!--navigation bar at top of page-->
     <div class="topnav" id="myTopnav">    
       <a href="javascript:void(0);" onclick="openNav()">&#9776; MENU</a>
-      <img src = "https://media.discordapp.net/attachments/468503249494867969/518574395669741588/1jojVVCOMkX9Wyrexe4hGfK36vFUtU4Efk3t9NjJE41M1xC0pgfJp8voyLhoWpA9SwlFaf8c4iydUIMXiRk.png">      
+          
     </div>   
     <!-- grid and stuff that goes in it --> 
     <div class = "grid"> 
       <div>
         <div id="atem">
           <h1>Atem Switcher Interaction</h1>
-          <p>This Project began because my coworker Arthur got inspired by this video:
+          <p>
+          Situation: 
+          Our team wanted to create an online version of one of our shows that a virtual audience can enjoy, my coworker Arthur was inspired by this video:
           </p>
           <iframe width="560" height="315" 
           src="https://www.youtube.com/embed/nRLNpQfRb1c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-        </iframe>
+          </iframe>
+
           <p>
-            The idea was to use unreal engine to create a virtual environment then using a green screen and a vive tracker, we could have a roaming camera in that virtual world we create.
-            the idea then became that we swapped between the feed from a roaming camera and a static camera which both required different chroma key settings( due to differences in elevation/lighting).
-            So I was tasked with making a script to automate the task of changing the chroma-key settings and swapping between cameras in unreal engine at the same time.
-            the show:
+          After seeing this video, our goal became to create a dynamic virtual environment using unreal engine, our green screen and Vive Trackers.
+
+          Task: 
+          We had some major hurdles, the first one was getting everything to work together, and we also needed to seamlessly transition between
+          different camera feeds that have distinct chroma key settings due to the varying environmental factors like lighting, elevation and movement.
+          </p>
+          <p>
+          Action: 
+          While Arthur worked on setting up the technology, I focused on developing a custom script to automate the adjustment of the chroma key settings adjustment and seamlessly switch between our cameras
+          </p>
+          <p>
+          Result: 
+          Thanks to the script we were able to streamline our workflow and provide our virtual audience with an immersive experience.
+          Despite some hiccups during the live broadcast due to changes in lightning caused by the presence of a live audience at our studio
+          and the limited space our camera operator had to move through due to the in studio audience. Things definitely got a little sweaty in the control room as we tried to adjust the settings on the fly.
+          Luckily in the end we managed to still provide our audience with a captivating demonstration.
           </p>
           <iframe width="560" height="315" 
           src="https://www.youtube.com/embed/IaHHq4D4S80" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
         </iframe>
         </div>
         <div id = "contact" class = "contact">
-          <h>Contact me: </h>
-          <a href = "mailto:shabtu@ualberta.ca?Subject="><img src = "https://images.vexels.com/media/users/3/130187/isolated/preview/5e8d2205ecc8cde3235581fc5ecfa430-email-outline-icon-by-vexels.png" width = "44px" height = "44px"></a>
-          <a href = "https://twitter.com/DunderSam"><img src = "https://www.freepnglogos.com/uploads/twitter-logo-png/twitter-logo-vector-png-clipart-1.png" width = "44px" height = "44px"></a>
-          <a href = "https://github.com/SamuelHabtu"><img src = "https://github.githubassets.com/images/modules/logos_page/Octocat.png" width = "44px" height = "44px"></a>
+          
+          <a href = "https://twitter.com/DunderSam" class = "fa fa-twitter"></a>
+          <a href = "https://github.com/SamuelHabtu" class = "fa fa-github"></a>
+          <a href = "https://ca.linkedin.com/in/samuel-habtu-7b0885169" class = "fa fa-linkedin"></a>
       </div>
       </div>      
     </div>

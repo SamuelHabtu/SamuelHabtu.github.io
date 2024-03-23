@@ -115,19 +115,34 @@ body
 /* this is where I style the Div's within grid*/
 
 /* The contact me section:*/
-.contact
+.fa 
 {
-  font-size:12px; 
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
 }
-.contact h
+
+.fa:hover 
 {
-  position:relative;
-  top:-5px;
-  left:0;
-  font-size:24px;
-  color:#2A3132;
+  opacity: 0.7;
 }
-.contact a
-{
-  position:relative;
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-linkedin {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-github {
+  background: #030805;
+  color: white;
 }
