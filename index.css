@@ -14,9 +14,8 @@ body
   display:grid;
   grid-template-columns: 1fr 3fr;
   grid-template-rows: 1fr min-content;
-  grid-column-gap:10em;
-  grid-row-gap:10em;  
-  grid-gap: 100em;
+  column-gap:10%;
+  row-gap:10%;  
 }
 /*Within every grid it changes the background colour of each row */
 .grid > div
@@ -28,6 +27,7 @@ body
 {
   background:#FEF5F5;
   padding:1em;
+  gap: 10em;
 }
 
 /* Add a black background color to the top navigation */
